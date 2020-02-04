@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development ./Präsentation_Nvidia/frontend/src/index.js --output ./Präsentation_Nvidia/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./Präsentation_Nvidia/frontend/src/index.js --output ./Präsentation_Nvidia/frontend/static/frontend/main.js"
   },
   "keywords": [],
   "author": "",
